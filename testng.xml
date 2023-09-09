@@ -9,8 +9,10 @@
 		<class name="com.bestbuy.tests.BestBuyMenuTest"/> 		
 		<class name="com.bestbuy.tests.BestBuyAddItemsTest"/>
 		
+
 	<class name="com.bestbuy.tests.BestBuySignin_NegativeTest"/>
-		<class name="com.bestbuy.tests.BestBuySearch_NegativeTest"/>
+	<class name="com.bestbuy.tests.BestBuySearch_NegativeTest"/>
+		
 		<class name="com.bestbuy.utils.Reports" />
  </classes>
   </test> 
