@@ -49,11 +49,6 @@ public class BestBuyAddItemsPage  extends SelWrappers {
 	@FindBy(xpath="//*[contains(text(),'Sony home audio')][1]")
 	WebElement sonyAudio;
 	
-//	@FindBy(xpath="//input[@id='soldout_facet-Exclude-Out-of-Stock-Items-0']")
-	//WebElement outSt1;
-//	@FindBy(xpath="(//h4[@class='sku-title']//a)[7]")
-//	WebElement mobile;
-	
 	@FindBy(xpath="(//button[text()='Add to Cart'])[2]")
 	WebElement addProduct3;
 
@@ -168,14 +163,7 @@ public class BestBuyAddItemsPage  extends SelWrappers {
 		click(brands);
 		click(sony);
 		click(sonyAudio);
-		
-		//click(selprod3);
-		//click(brand);
-	//	click(brandpart);
-		//click(brandprod);
-		//click(store);
-	//	jsClick(outSt1);
-		//click(addProduct3);
+	
 		
 		if(click(addProduct3))
 		{

@@ -3,6 +3,7 @@
 <suite name="Suite">
 	 <test  name="ChromeTest">
 		 <parameter name="browser" value="chrome"/>
+	<!--<parameter name="browser" value="edge"/>-->
     <classes>
 	<class name="com.bestbuy.tests.BestBuySignupTest"/>	
 		<class name="com.bestbuy.tests.BestBuyBottomPageTest"/> 
@@ -15,24 +16,5 @@
 		
 		<class name="com.bestbuy.utils.Reports" />
  </classes>
-  </test> 
- <!--  <test  name="EdgeTest">
-		 <parameter name="browser" value="edge"/>
-    <classes>
-		<class name="com.bestbuy.tests.BestBuySignupTest"/>	
-		<class name="com.bestbuy.tests.BestBuyBottomPageTest"/> 
-		<class name="com.bestbuy.tests.BestBuyMenuTest"/> 		
-		<class name="com.bestbuy.tests.BestBuyAddItemsTest"/>
-		
-	<class name="com.bestbuy.tests.BestBuySignin_NegativeTest"/>
-	<class name="com.bestbuy.tests.BestBuySearch_NegativeTest"/>
- 
- 
-		<class name="com.bestbuy.utils.SelWrappers"/>
-		<class name="com.bestbuy.utils.BestWrappers"/>
-		<class name="com.bestbuy.utils.Reports" />
-		
-	</classes>
-	</test>-->
-  
+  </test>  
 </suite> 

@@ -13,7 +13,7 @@ public class BestbuyOpenBrowserTest extends SelWrappers{
 	
 
 	//First testcase
-	@Test( groups = {"Positive"})
+	@Test
 	public void browserLaunch()
 	{
 		try

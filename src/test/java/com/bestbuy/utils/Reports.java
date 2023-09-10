@@ -18,11 +18,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class Reports 
 {
-/*
- * ExtentSparkReporter --> This class is used to generate the html report file
- * ExtentReports--> This class is used to create the tests in Extent reports
- * ExtentTest  --> This class is used to generate the logs for each test case
- */
+
 
 public static ExtentSparkReporter sparkReporter;
 public static ExtentReports extentReports;

@@ -25,7 +25,6 @@ public class BestBuySignupTest extends SelWrappers {
 		try
 		{
 			workbook= new XSSFWorkbook(System.getProperty("user.dir")+"/bestbuypos.xlsx");	
-			//workbook= new XSSFWorkbook(new FileInputStream("C:\\Users\\Guest User\\OneDrive\\Desktop\\bestbuy.xlsx"));
 			XSSFSheet sheet= workbook.getSheet("testdata");
 			XSSFRow row= sheet.getRow(0);
 			

@@ -23,8 +23,7 @@ public class BestBuyMenuPage extends SelWrappers {
 				
 		click(topdeal);
 		String expectedTitle="Top Deals";
-		//Assert.assertTrue(driver.getTitle().equals(expectedTitle));
-		//Assert.assertEquals(driver.getTitle(),expectedTitle);
+		
 		if(driver.getTitle().startsWith(expectedTitle))
 		{
 			System.out.println("title is validated");

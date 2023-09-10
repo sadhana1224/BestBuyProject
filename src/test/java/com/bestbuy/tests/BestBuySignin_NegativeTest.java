@@ -26,7 +26,6 @@ public class BestBuySignin_NegativeTest extends SelWrappers {
 		try
 		{
 			workbook= new XSSFWorkbook(System.getProperty("user.dir")+"/bestbuy.xlsx");	
-			//workbook= new XSSFWorkbook(new FileInputStream("C:\\Users\\Guest User\\OneDrive\\Desktop\\bestbuy.xlsx"));
 			XSSFSheet sheet= workbook.getSheet("testdata");
 			XSSFRow row= sheet.getRow(0);
 			

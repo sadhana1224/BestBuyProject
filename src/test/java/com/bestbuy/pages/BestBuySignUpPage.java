@@ -89,8 +89,7 @@ public class BestBuySignUpPage extends SelWrappers {
 			
 			Reports.reportStep("FAIL","Problem in Sign in");
 
-		//click(signIn);
-		
+				
 		
 		
 	        
